@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+
+:root {
+  /* Premium Industrial Color Palette */
+  --color-primary-dark: #0F172A;
+  --color-primary-accent: #DC2626;
+  --color-secondary: #1E40AF;
+  --color-background: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #64748B;
+  --color-success: #059669;
+  --color-border: #E2E8F0;
+  
+  /* Font Families */
+  --font-display: 'Clash Display', 'Satoshi', system-ui, sans-serif;
+  --font-body: 'Inter', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'Space Mono', 'IBM Plex Mono', monospace;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-text-primary);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+  
+  /* Custom Colors */
+  --color-primary-dark: #0F172A;
+  --color-primary-accent: #DC2626;
+  --color-secondary: #1E40AF;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #64748B;
+  --color-success: #059669;
+}
+
+/* Custom Font Face Declarations */
+@font-face {
+  font-family: 'Clash Display';
+  src: url('https://fonts.cdnfonts.com/css/clash-display') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Typography Utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Text Stroke Effect */
+.text-stroke {
+  -webkit-text-stroke: 2px currentColor;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-stroke-fill {
+  -webkit-text-fill-color: white;
+}
+
+/* Smooth Scroll Container */
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Selection Color */
+::selection {
+  background: var(--color-primary-accent);
+  color: white;
+}
+
+/* Animation Classes */
+.reveal-text {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.reveal-mask {
+  overflow: hidden;
+}
+
+/* Magnetic Button Base */
+.magnetic-btn {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Glass Morphism */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero Gradient Background */
+.hero-gradient {
+  background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);
+}
+
+/* Card Hover Effects */
+.card-hover {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15);
+}
+
+/* Link Underline Animation */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Noise Texture Overlay */
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Section Spacing */
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+/* Container */
+.container-custom {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-custom {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* ── Dark Mode ─────────────────────────────────── */
+.dark {
+  --color-background: #0F172A;
+  --color-surface: #1E293B;
+  --color-text-primary: #F1F5F9;
+  --color-text-secondary: #94A3B8;
+  --color-border: #334155;
+}
+
+.dark ::-webkit-scrollbar-track { background: #1E293B; }
+.dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+/* ── RTL / Arabic Support ──────────────────────── */
+
+[dir="rtl"] .link-underline::after {
+  left: auto;
+  right: 50%;
+  transition: width 0.3s ease, right 0.3s ease;
+}
+[dir="rtl"] .link-underline:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+[dir="rtl"],
+[lang="ar"] {
+  font-family: "Noto Sans Arabic", "Segoe UI", Tahoma, "Arabic Typesetting",
+    "Arial Unicode MS", system-ui, sans-serif;
+  letter-spacing: 0 !important;
+  word-spacing: 0.05em;
+}
+
+/* Tune Arabic heading typography */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4 {
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: 0 !important;
+}
+
+/* Ensure Arabic body text is readable */
+[dir="rtl"] p,
+[dir="rtl"] span,
+[dir="rtl"] li,
+[dir="rtl"] a {
+  line-height: 1.8;
+}
+
+/* Text alignment: auto-flip */
+[dir="rtl"] .text-left { text-align: right; }
+[dir="rtl"] .text-right { text-align: left; }
+
+/* Flip absolute positioning */
+[dir="rtl"] .absolute.left-4 { left: auto; right: 1rem; }
+[dir="rtl"] .absolute.right-4 { right: auto; left: 1rem; }
+[dir="rtl"] .absolute.left-0 { left: auto; right: 0; }
+[dir="rtl"] .absolute.right-0 { right: auto; left: 0; }
+
+/* Padding & margin: flip inline start/end */
+[dir="rtl"] .pl-4 { padding-left: 0; padding-right: 1rem; }
+[dir="rtl"] .pr-4 { padding-right: 0; padding-left: 1rem; }
+[dir="rtl"] .pl-6 { padding-left: 0; padding-right: 1.5rem; }
+[dir="rtl"] .pl-12 { padding-left: 0; padding-right: 3rem; }
+[dir="rtl"] .ml-auto { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .mr-auto { margin-right: 0; margin-left: auto; }
+
+/* Arrow icon flip */
+[dir="rtl"] .rtl-flip-x {
+  transform: scaleX(-1);
+}
+
+/* Flex direction for navigation */
+[dir="rtl"] .flex-row { direction: rtl; }
+
+/* Mobile dropdown submenu */
+[dir="rtl"] .pl-4.mt-2.space-y-2 {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+/* Search input icon fix */
+[dir="rtl"] input[type="text"],
+[dir="rtl"] input[type="search"] {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Make uppercase tracking look good in Arabic */
+[dir="rtl"] .uppercase {
+  text-transform: none;
+}
+[dir="rtl"] .tracking-widest,
+[dir="rtl"] .tracking-tight {
+  letter-spacing: 0 !important;
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+[dir="rtl"] .animate-marquee {
+  animation-direction: reverse;
+}
+
+/* ── Reduced Motion ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

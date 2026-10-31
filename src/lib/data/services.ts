@@ -1,0 +1,14 @@
+export const services = [
+  { id: "calibration", title: "Calibration Services", description: "Precision calibration for electrical, mechanical, and dimensional instruments with ISO 17025 accreditation.", image: "/assets/calibration.jpg", slug: "/services/calibration" },
+  { id: "electrical", title: "Electrical Calibration", description: "Accredited calibration for multimeters, power analyzers, oscilloscopes, and all electrical instruments.", image: "/assets/calibration.jpg", slug: "/services/calibration/electrical" },
+  { id: "temperature", title: "Temperature Calibration", description: "Traceable temperature calibration for thermocouples, RTDs, thermometers, and thermal instruments.", image: "/assets/calibration.jpg", slug: "/services/calibration/temperature" },
+  { id: "pressure", title: "Pressure Calibration", description: "High-accuracy pressure calibration for gauges, transmitters, and pressure measurement systems.", image: "/assets/calibration.jpg", slug: "/services/calibration/pressure" },
+  { id: "mechanical", title: "Mechanical Calibration", description: "Comprehensive mechanical calibration for torque, force, flow, sound, vibration, and environmental instruments.", image: "/assets/calibration.jpg", slug: "/services/calibration/mechanical" },
+  { id: "onsite-calibration", title: "Onsite Calibration", description: "Calibration performed at your facility to minimize equipment downtime.", image: "/assets/calibration.jpg", slug: "/services/onsite-calibration" },
+  { id: "rental", title: "Rental Services", description: "Calibrated test equipment available for short or long-term rental.", image: "/assets/calibration.jpg", slug: "/services/rental" },
+  { id: "van-services", title: "Van Setup Solutions", description: "Design, supply, integration, and commissioning of specialized mobile testing and commissioning vans.", image: "/assets/calibration.jpg", slug: "/services/van-services" },
+  { id: "maintenance", title: "Maintenance & Support", description: "Preventive and corrective maintenance services for optimal equipment performance.", image: "/assets/maintenance.jpg", slug: "/services/maintenance" },
+  { id: "testing", title: "Testing & Analysis", description: "Advanced testing and analytical services for quality assurance.", image: "/assets/testing.jpg", slug: "/services/testing" },
+  { id: "inspection", title: "Inspection & Verification", description: "Thorough inspection and verification services for regulatory compliance.", image: "/assets/inspection.jpg", slug: "/services/inspection" },
+  { id: "bms", title: "BMS Solutions", description: "Building Management System (BMS) solutions in partnership with Wizard Engineering for commercial, industrial, healthcare, and infrastructure projects.", image: "/images/services/overview/bms.png", slug: "/services/bms" },
+];
