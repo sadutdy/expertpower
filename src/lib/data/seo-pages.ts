@@ -87,7 +87,7 @@ const livePages: SeoPage[] = [
       {
         heading: "Laboratory and on-site calibration across Saudi Arabia",
         body: [
-          "Send instruments to our laboratory in Riyadh or the Dammam branch, or book on-site calibration so your plant keeps running. Our mobile van laboratories carry reference standards to your site in the Eastern, Central and Western regions.",
+          "Send instruments to our laboratory in Riyadh or the Dammam branch, or book on-site calibration by our engineers so your plant keeps running, in the Eastern, Central and Western regions.",
         ],
       },
     ],
@@ -106,7 +106,7 @@ const livePages: SeoPage[] = [
       },
       {
         q: "Do you offer on-site calibration in Riyadh, Dammam and Jubail?",
-        a: "Yes. Our on-site teams and mobile van laboratories serve industrial sites across Saudi Arabia.",
+        a: "Yes. Our on-site teams serve industrial sites across Saudi Arabia.",
       },
     ],
     serviceType: "Calibration service",
@@ -126,7 +126,7 @@ const livePages: SeoPage[] = [
       "SASO licensed lab in Saudi Arabia (PLL 0073). ISO 17025 calibration, testing and inspection for compliance in Riyadh & Dammam.",
     h1: "SASO Accredited Lab in Saudi Arabia",
     intro:
-      "Expert Power is a SASO licensed private laboratory in Saudi Arabia (PLL 0073), backed by ISO/IEC 17025:2017 and SAAC accreditation. We provide calibration, testing and inspection services that support product conformity, regulatory compliance and quality audits.",
+      "Expert Power is a SASO licensed private laboratory in Saudi Arabia (PLL 0073), backed by ISO/IEC 17025:2017 and SAAC accreditation. We provide calibration, testing and inspection services that support product conformity and regulatory compliance.",
     keywords: [
       "SASO accredited lab in Saudi Arabia",
       "SASO approved laboratory Riyadh",
@@ -161,13 +161,12 @@ const livePages: SeoPage[] = [
           "Calibration of measuring instruments with traceable certificates",
           "Electrical safety testing and equipment verification",
           "Inspection and verification services for industrial assets",
-          "Documentation for audits, tenders and customer approvals",
         ],
       },
       {
         heading: "Who needs a SASO accredited lab?",
         body: [
-          "Oil & gas operators, power utilities, manufacturers, construction contractors, logistics companies and educational institutions use our laboratory to meet customer, tender and regulatory requirements in Saudi Arabia.",
+          "Oil & gas operators, power utilities, manufacturers, construction contractors, logistics companies and educational institutions use our laboratory to meet customer and regulatory requirements in Saudi Arabia.",
         ],
       },
     ],
@@ -179,10 +178,6 @@ const livePages: SeoPage[] = [
       {
         q: "What is the difference between SASO and SAAC?",
         a: "SASO is the Saudi Standards, Metrology and Quality Organization that issues standards and laboratory licenses. SAAC is the Saudi Accreditation Center that accredits laboratories against ISO/IEC 17025.",
-      },
-      {
-        q: "Can you provide testing and calibration certificates for tenders?",
-        a: "Yes. We issue traceable calibration and test reports suitable for audits, tenders and customer approvals.",
       },
     ],
     serviceType: "Laboratory testing and calibration service",
@@ -229,8 +224,6 @@ const livePages: SeoPage[] = [
           "Process and electrical calibrators",
           "Insulation resistance testers and earth testers",
           "Protection relay test sets and primary/secondary injection kits",
-          "Oscilloscopes, signal sources and power supplies",
-          "Loop testers, RCD testers and installation testers",
         ],
       },
       {
@@ -240,7 +233,6 @@ const livePages: SeoPage[] = [
         ],
         bullets: [
           "Fault diagnosis and written quotation",
-          "Component-level repair and spare parts supply",
           "Post-repair calibration with certificate",
           "Annual maintenance contracts and preventive service",
           "Emergency repair and replacement rental instruments",
@@ -261,10 +253,6 @@ const livePages: SeoPage[] = [
       {
         q: "Will I get a calibration certificate after repair?",
         a: "Yes. Repaired instruments are calibrated against traceable standards and returned with a certificate.",
-      },
-      {
-        q: "Can you supply a replacement while my instrument is in the workshop?",
-        a: "Yes. Our rental service supplies test and calibration equipment for the repair period.",
       },
       {
         q: "Do you offer annual maintenance contracts?",
@@ -312,20 +300,7 @@ const livePages: SeoPage[] = [
           "Pre-location and pin-pointing of cable faults",
           "Onboard generator and power system integration",
           "Test lead reels, terminal panels and grounding system",
-          "Safety systems, emergency shutdown and fire suppression",
           "Lighting, distribution and climate control",
-        ],
-      },
-      {
-        heading: "Faults we help locate",
-        body: [
-          "Mobile cable testing reduces outage time because the fault is located at the site instead of excavating along the whole route.",
-        ],
-        bullets: [
-          "Underground power cable faults (HV, MV and LV)",
-          "Cable insulation breakdown and open or short circuits",
-          "Sheath faults and cable route tracing",
-          "Post-repair acceptance and diagnostic testing",
         ],
       },
       {
@@ -342,7 +317,7 @@ const livePages: SeoPage[] = [
       },
       {
         q: "Can the van be customised to our equipment?",
-        a: "Yes. Every van is tailored to your technical needs, including power, racks, test leads, safety systems and climate control.",
+        a: "Yes. Every van is tailored to your technical needs, including power, racks, test leads and climate control.",
       },
       {
         q: "Which cities do you serve?",

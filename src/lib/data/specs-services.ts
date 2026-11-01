@@ -8,14 +8,14 @@ export const serviceSpecs: PageSpec[] = [
     moreKeywords: ["torque tool calibration Riyadh", "digital torque wrench calibration", "hydraulic torque wrench calibration"],
     img: IMG.cal,
     serviceType: "Torque wrench calibration",
-    related: [R.cal, R.onsite, R.maint, R.contact],
+    related: [R.cal, R.maint, R.contact],
     en: {
       title: "Torque Wrench Calibration in Saudi Arabia | Expert Power",
       description:
-        "Torque wrench calibration in Saudi Arabia for click, digital, dial, preset and hydraulic tools. Laboratory or on-site service in Riyadh and Dammam. Request a quote.",
+        "Torque wrench calibration in Saudi Arabia for click, digital, dial, preset and hydraulic tools. Laboratory service in Riyadh and Dammam. Request a quote.",
       h1: "Torque Wrench Calibration in Saudi Arabia",
       intro:
-        "Expert Power calibrates torque wrenches and torque tools in Saudi Arabia, in our laboratory or on your site. Each tool is checked before and after adjustment and returned with a calibration certificate.",
+        "Expert Power calibrates torque wrenches and torque tools in our laboratory in Saudi Arabia. Each tool is checked and returned with a calibration certificate.",
       offerHeading: "Torque tools we calibrate",
       offer: [
         "Click torque wrenches",
@@ -31,7 +31,6 @@ export const serviceSpecs: PageSpec[] = [
         "Receive and identify the tool",
         "Record the as-found readings",
         "Adjust where needed",
-        "Record the as-left readings",
         "Issue the calibration certificate",
       ],
       motionTitle: "Torque wrench calibration",
@@ -42,21 +41,17 @@ export const serviceSpecs: PageSpec[] = [
         ],
         [
           "What does the calibration certificate show?",
-          "The certificate identifies the tool and records the readings taken during calibration, including the as-found and as-left results.",
-        ],
-        [
-          "Can you calibrate torque wrenches on site?",
-          "Yes, an on-site option is available. Contact us with the number and type of tools.",
+          "The certificate identifies the tool and records the readings taken during calibration, including the as-found results.",
         ],
       ],
     },
     ar: {
       title: "معايرة مفاتيح العزم في السعودية | إكسبرت باور",
       description:
-        "معايرة مفاتيح العزم في السعودية: النقر والرقمي والمؤشر والمسبق الضبط والهيدروليكي. خدمة في المعمل أو في الموقع في الرياض والدمام. اطلب عرض سعر.",
+        "معايرة مفاتيح العزم في السعودية: النقر والرقمي والمؤشر والمسبق الضبط والهيدروليكي. خدمة في المعمل في الرياض والدمام. اطلب عرض سعر.",
       h1: "معايرة مفاتيح العزم في المملكة العربية السعودية",
       intro:
-        "تعاير إكسبرت باور مفاتيح العزم وأدوات العزم في السعودية، في معملنا أو في موقعك. يُفحص كل مفتاح قبل الضبط وبعده ويعود مع شهادة معايرة.",
+        "تعاير إكسبرت باور مفاتيح العزم وأدوات العزم في معملنا في السعودية. يُفحص كل مفتاح ويعود مع شهادة معايرة.",
       offerHeading: "أدوات العزم التي نعايرها",
       offer: [
         "مفاتيح العزم ذات النقر",
@@ -72,7 +67,6 @@ export const serviceSpecs: PageSpec[] = [
         "استلام الأداة وتحديد هويتها",
         "تسجيل القراءات قبل الضبط",
         "الضبط عند الحاجة",
-        "تسجيل القراءات بعد الضبط",
         "إصدار شهادة المعايرة",
       ],
       motionTitle: "معايرة مفاتيح العزم",
@@ -83,11 +77,7 @@ export const serviceSpecs: PageSpec[] = [
         ],
         [
           "ماذا تُظهر شهادة المعايرة؟",
-          "تحدد الشهادة الأداة وتسجل القراءات المأخوذة أثناء المعايرة، بما فيها النتائج قبل الضبط وبعده.",
-        ],
-        [
-          "هل يمكن معايرة مفاتيح العزم في الموقع؟",
-          "نعم، يتوفر خيار الخدمة في الموقع. تواصل معنا مع عدد الأدوات وأنواعها.",
+          "تحدد الشهادة الأداة وتسجل القراءات المأخوذة أثناء المعايرة، بما فيها النتائج قبل الضبط.",
         ],
       ],
     },
@@ -521,92 +511,6 @@ export const serviceSpecs: PageSpec[] = [
     },
   },
   {
-    slug: "services/inspection/crane-load-test",
-    kind: "service",
-    keyword: "crane load test Saudi Arabia",
-    moreKeywords: ["crane load testing", "load test certificate Saudi Arabia", "water bag load test"],
-    img: IMG.insp,
-    serviceType: "Crane load testing",
-    related: [
-      ["Lifting equipment inspection", "/services/inspection/lifting-equipment/", "فحص معدات الرفع"],
-      R.insp,
-      R.test,
-      R.contact,
-    ],
-    en: {
-      title: "Crane Load Test in Saudi Arabia | Expert Power",
-      description:
-        "Crane load testing in Saudi Arabia using test weights or water bags. Contact Expert Power in Riyadh or Dammam to discuss your crane.",
-      h1: "Crane Load Test in Saudi Arabia",
-      intro:
-        "Expert Power carries out load tests on cranes in Saudi Arabia. A load test checks that the crane can lift and hold the load it is rated for.",
-      offerHeading: "Load test methods",
-      offer: ["Test weights", "Water bags"],
-      extra: [
-        {
-          heading: "What a load test is",
-          body: [
-            "In a load test the crane lifts a known test load under controlled conditions while the condition of the crane is observed. The results of the test are recorded.",
-          ],
-        },
-      ],
-      stepsHeading: "How a crane load test works",
-      steps: [
-        "Agree the test with you and visit the site",
-        "Prepare the crane and the test load",
-        "Lift and hold the test load",
-        "Record the results",
-      ],
-      motionTitle: "Crane load test",
-      faqs: [
-        [
-          "How often should a crane be load tested?",
-          "The frequency depends on the type of crane, how it is used and the rules that apply to your site. Contact us to discuss your crane.",
-        ],
-        [
-          "Do I need test weights or water bags?",
-          "The method depends on the crane and the site. We will advise the best option after discussing your requirements.",
-        ],
-      ],
-    },
-    ar: {
-      title: "اختبار حمل الرافعات في السعودية | إكسبرت باور",
-      description:
-        "اختبار حمل الرافعات في السعودية باستخدام أوزان الاختبار أو أكياس المياه. تواصل مع إكسبرت باور في الرياض أو الدمام لمناقشة رافعتك.",
-      h1: "اختبار حمل الرافعات في المملكة العربية السعودية",
-      intro:
-        "تجري إكسبرت باور اختبارات الحمل على الرافعات في السعودية. يتحقق اختبار الحمل من قدرة الرافعة على رفع الحمولة المقررة لها وتثبيتها.",
-      offerHeading: "طرق اختبار الحمل",
-      offer: ["أوزان الاختبار", "أكياس المياه"],
-      extra: [
-        {
-          heading: "ما هو اختبار الحمل",
-          body: [
-            "في اختبار الحمل ترفع الرافعة حمولة اختبار معلومة في ظروف مضبوطة بينما تُراقب حالة الرافعة. وتُسجل نتائج الاختبار.",
-          ],
-        },
-      ],
-      stepsHeading: "كيف يتم اختبار حمل الرافعة",
-      steps: [
-        "الاتفاق معك على الاختبار وزيارة الموقع",
-        "تجهيز الرافعة وحمولة الاختبار",
-        "رفع حمولة الاختبار وتثبيتها",
-        "تسجيل النتائج",
-      ],
-      motionTitle: "اختبار حمل الرافعة",
-      faqs: [
-        [
-          "كم مرة يجب إجراء اختبار الحمل للرافعة؟",
-          "تعتمد الوتيرة على نوع الرافعة وطريقة استخدامها والقواعد المطبقة في موقعك. تواصل معنا لمناقشة رافعتك.",
-        ],
-        [
-          "هل أحتاج أوزان اختبار أم أكياس مياه؟",
-          "تعتمد الطريقة على الرافعة والموقع. سنوضح الخيار الأنسب بعد مناقشة متطلباتك.",
-        ],
-      ],
-    },
-  },
-  {
     slug: "services/inspection/pressure-valve-psv",
     kind: "service",
     keyword: "safety valve calibration Saudi Arabia",
@@ -647,217 +551,6 @@ export const serviceSpecs: PageSpec[] = [
         "إعادة الصمام مع سجل الاختبار",
       ],
       motionTitle: "اختبار صمامات الأمان",
-    },
-  },
-  {
-    slug: "services/testing/hv-testing",
-    kind: "service",
-    keyword: "HV testing Saudi Arabia",
-    moreKeywords: ["hipot testing Saudi Arabia", "HV cable testing", "high voltage cable test"],
-    img: IMG.test,
-    serviceType: "High voltage testing",
-    related: [R.test, R.van, R.elec, R.contact],
-    en: {
-      title: "HV Testing: Hipot & HV Cable Tests | Saudi Arabia",
-      description:
-        "High voltage testing in Saudi Arabia: hipot testing and HV cable testing with test reports. Contact Expert Power in Riyadh or Dammam.",
-      h1: "High Voltage Testing in Saudi Arabia",
-      intro:
-        "Expert Power carries out hipot and HV cable testing in Saudi Arabia. Tests are done by trained engineers and a report is provided.",
-      offerHeading: "Services",
-      offer: ["Hipot testing", "HV cable testing"],
-      extra: [
-        {
-          heading: "Equipment, safety and industries",
-          body: [],
-          bullets: [
-            "Equipment: high voltage test equipment operated by trained engineers",
-            "Safety: the test area is secured and safe procedures are followed",
-            "Industries: power utilities, industrial plants and contractors",
-            "Report: the test results are recorded in a report",
-          ],
-        },
-      ],
-      stepsHeading: "How an HV test works",
-      steps: [
-        "Agree the test with you",
-        "Prepare and secure the test area",
-        "Carry out the test",
-        "Provide the test report",
-      ],
-      motionTitle: "High voltage testing",
-    },
-    ar: {
-      title: "فحص الجهد العالي وكابلات HV في السعودية",
-      description:
-        "فحص الجهد العالي في السعودية: اختبار الهيبوت واختبار كابلات الجهد العالي مع تقارير. تواصل مع إكسبرت باور في الرياض أو الدمام.",
-      h1: "فحص الجهد العالي في المملكة العربية السعودية",
-      intro:
-        "تجري إكسبرت باور اختبار الهيبوت واختبار كابلات الجهد العالي في السعودية. ينفذ الاختبارات مهندسون مدربون ويُقدَّم تقرير.",
-      offerHeading: "الخدمات",
-      offer: ["اختبار الهيبوت", "اختبار كابلات الجهد العالي"],
-      extra: [
-        {
-          heading: "المعدات والسلامة والقطاعات",
-          body: [],
-          bullets: [
-            "المعدات: معدات اختبار الجهد العالي يشغلها مهندسون مدربون",
-            "السلامة: تأمين منطقة الاختبار واتباع إجراءات السلامة",
-            "القطاعات: شركات الكهرباء والمصانع والمقاولون",
-            "التقرير: تسجل نتائج الاختبار في تقرير",
-          ],
-        },
-      ],
-      stepsHeading: "كيف يتم اختبار الجهد العالي",
-      steps: [
-        "الاتفاق معك على الاختبار",
-        "تجهيز منطقة الاختبار وتأمينها",
-        "تنفيذ الاختبار",
-        "تقديم تقرير الاختبار",
-      ],
-      motionTitle: "فحص الجهد العالي",
-    },
-  },
-  {
-    slug: "services/testing/thermography",
-    kind: "service",
-    keyword: "infrared thermography inspection Saudi Arabia",
-    moreKeywords: ["thermal imaging electrical inspection", "thermographic survey Riyadh"],
-    img: IMG.test,
-    serviceType: "Infrared thermography",
-    related: [R.test, R.insp, R.rental, R.contact],
-    en: {
-      title: "Infrared Thermography Inspection | Saudi Arabia",
-      description:
-        "Infrared thermography inspection in Saudi Arabia to find hot spots in electrical and mechanical equipment. Contact Expert Power in Riyadh or Dammam.",
-      h1: "Infrared Thermography Inspection in Saudi Arabia",
-      intro:
-        "Expert Power uses thermal imaging to find hot spots in electrical and mechanical equipment in Saudi Arabia, so problems can be fixed before they cause a failure.",
-      offerHeading: "What thermography can find",
-      offer: [
-        "Loose or overheating connections",
-        "Overloaded circuits",
-        "Components that are starting to fail",
-      ],
-      stepsHeading: "How a thermography survey works",
-      steps: [
-        "Plan the survey with you",
-        "Scan the equipment with a thermal camera",
-        "Analyse the hot spots",
-        "Share the findings",
-      ],
-      motionTitle: "Thermography inspection",
-      faqs: [
-        [
-          "How often should thermography be done?",
-          "The frequency depends on the equipment, its load and how critical it is. Contact us to discuss your site.",
-        ],
-      ],
-    },
-    ar: {
-      title: "فحص حراري بالأشعة تحت الحمراء في السعودية",
-      description:
-        "فحص حراري بالأشعة تحت الحمراء في السعودية لكشف النقاط الساخنة في المعدات الكهربائية والميكانيكية. تواصل مع إكسبرت باور في الرياض أو الدمام.",
-      h1: "الفحص الحراري بالأشعة تحت الحمراء في المملكة العربية السعودية",
-      intro:
-        "تستخدم إكسبرت باور التصوير الحراري لكشف النقاط الساخنة في المعدات الكهربائية والميكانيكية في السعودية، لمعالجة المشكلات قبل أن تسبب عطلاً.",
-      offerHeading: "ما يمكن للتصوير الحراري كشفه",
-      offer: [
-        "التوصيلات المرتخية أو المسخنة",
-        "الدوائر المحملة بأكثر من طاقتها",
-        "المكونات التي بدأت تتعطل",
-      ],
-      stepsHeading: "كيف يتم المسح الحراري",
-      steps: [
-        "التخطيط للمسح معك",
-        "مسح المعدات بالكاميرا الحرارية",
-        "تحليل النقاط الساخنة",
-        "مشاركة النتائج",
-      ],
-      motionTitle: "الفحص الحراري",
-      faqs: [
-        [
-          "كم مرة يجب إجراء الفحص الحراري؟",
-          "تعتمد الوتيرة على المعدات وحملها ودرجة أهميتها. تواصل معنا لمناقشة موقعك.",
-        ],
-      ],
-    },
-  },
-  {
-    slug: "services/testing/power-quality",
-    kind: "service",
-    keyword: "power quality analysis Saudi Arabia",
-    moreKeywords: ["power quality testing Riyadh", "harmonics measurement"],
-    img: IMG.test,
-    serviceType: "Power quality analysis",
-    related: [R.test, R.rental, R.elec, R.contact],
-    en: {
-      title: "Power Quality Analysis in Saudi Arabia | Expert Power",
-      description:
-        "Power quality measurement and analysis in Saudi Arabia. Contact Expert Power in Riyadh or Dammam to discuss your site.",
-      h1: "Power Quality Analysis in Saudi Arabia",
-      intro:
-        "Expert Power measures and analyses power quality at industrial and commercial sites in Saudi Arabia, to help you understand how your electrical supply behaves.",
-      offerHeading: "Services and equipment",
-      offer: [
-        "Power quality measurement and analysis",
-        "Voltage and current monitoring",
-        "Checks for harmonics and disturbances",
-        "Power quality analyzers operated by our engineers",
-      ],
-      extra: [
-        {
-          heading: "Benefits",
-          body: [],
-          bullets: [
-            "Helps identify the causes of equipment trips",
-            "Helps find unbalanced or overloaded circuits",
-            "Supports maintenance planning",
-          ],
-        },
-      ],
-      stepsHeading: "How the service works",
-      steps: [
-        "Agree the points to measure",
-        "Connect the analyzer",
-        "Record the measurements",
-        "Analyse and explain the results",
-      ],
-      motionTitle: "Power quality analysis",
-    },
-    ar: {
-      title: "تحليل جودة الطاقة في السعودية | إكسبرت باور",
-      description:
-        "قياس وتحليل جودة الطاقة في السعودية. تواصل مع إكسبرت باور في الرياض أو الدمام لمناقشة موقعك.",
-      h1: "تحليل جودة الطاقة في المملكة العربية السعودية",
-      intro:
-        "تقيس إكسبرت باور جودة الطاقة وتحللها في المواقع الصناعية والتجارية في السعودية، لمساعدتك على فهم سلوك التغذية الكهربائية لديك.",
-      offerHeading: "الخدمات والمعدات",
-      offer: [
-        "قياس وتحليل جودة الطاقة",
-        "مراقبة الجهد والتيار",
-        "فحص التوافقيات والاضطرابات",
-        "محللات جودة الطاقة يشغلها مهندسونا",
-      ],
-      extra: [
-        {
-          heading: "الفوائد",
-          body: [],
-          bullets: [
-            "يساعد على تحديد أسباب فصل المعدات",
-            "يساعد على كشف الدوائر غير المتوازنة أو المحملة بأكثر من طاقتها",
-            "يدعم تخطيط الصيانة",
-          ],
-        },
-      ],
-      stepsHeading: "كيف تعمل الخدمة",
-      steps: [
-        "الاتفاق على نقاط القياس",
-        "توصيل المحلل",
-        "تسجيل القياسات",
-        "تحليل النتائج وشرحها",
-      ],
-      motionTitle: "تحليل جودة الطاقة",
     },
   },
   {

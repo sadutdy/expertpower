@@ -236,7 +236,7 @@ export const instrumentSpecs: PageSpec[] = [
     slug: "services/calibration/temperature/thermal-imager-calibration",
     keyword: "thermal imager calibration",
     more: ["thermal camera calibration Saudi Arabia"],
-    related: [R.temp, R.cal, ["Infrared thermography inspection", "/services/testing/thermography/", "الفحص الحراري"], R.contact],
+    related: [R.temp, R.cal, R.contact],
     en: {
       name: "Thermal Imager",
       lower: "thermal imagers",
@@ -328,7 +328,7 @@ export const instrumentSpecs: PageSpec[] = [
     en: {
       name: "Gas Detector",
       lower: "gas detectors",
-      offer: ["Portable gas detectors", "Multi-gas detectors", "Bump test and calibration"],
+      offer: ["Portable gas detectors", "Multi-gas detectors"],
       steps: [
         "Receive and identify the detector",
         "Check the response with test gas",
@@ -338,7 +338,7 @@ export const instrumentSpecs: PageSpec[] = [
     },
     ar: {
       name: "أجهزة كشف الغاز",
-      offer: ["أجهزة كشف الغاز المحمولة", "أجهزة كشف الغازات المتعددة", "اختبار الاستجابة والمعايرة"],
+      offer: ["أجهزة كشف الغاز المحمولة", "أجهزة كشف الغازات المتعددة"],
       steps: [
         "استلام الجهاز وتحديد هويته",
         "فحص الاستجابة بغاز الاختبار",
