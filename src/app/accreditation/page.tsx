@@ -16,6 +16,7 @@ import {
   ExternalLink,
   ChevronLeft,
   ChevronRight,
+  BadgeCheck,
 } from "lucide-react";
 import { MagneticButton } from "@/components/MagneticButton";
 
@@ -55,6 +56,12 @@ const accreditations = [
     description: "Environmental Management System certification",
     scope: "Environmental Management",
     icon: Leaf,
+  },
+  {
+    title: "SASO Laboratory License",
+    description: "Licensed as a private laboratory by the Saudi Standards, Metrology and Quality Organization (License PLL 0073)",
+    scope: "National Licensing",
+    icon: BadgeCheck,
   },
 ];
 
@@ -272,13 +279,13 @@ export default function AccreditationPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+          <div className="flex flex-wrap justify-center gap-6 mb-20">
             {accreditations.map((acc) => {
               const Icon = acc.icon;
               return (
                 <div
                   key={acc.title}
-                  className="reveal-item bg-white dark:bg-[#1E293B] rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300"
+                  className="reveal-item w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-white dark:bg-[#1E293B] rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300"
                 >
                   <div className="flex items-start gap-4">
                     <div className="w-14 h-14 rounded-xl bg-[#DC2626]/10 flex items-center justify-center flex-shrink-0">

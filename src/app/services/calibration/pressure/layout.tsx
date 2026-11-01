@@ -3,16 +3,17 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Pressure Calibration Services | Gauges, Transmitters, Switches & Vacuum | Expert Power",
+      "Pressure Calibration Services | Expert Power",
   },
   description:
-    "Accurate pressure calibration for digital gauges, transmitters, switches, differential pressure, vacuum gauges, barometers, PRVs, and pressure calibrators in Saudi Arabia.",
+    "Accurate pressure calibration for gauges, transmitters, switches, vacuum gauges and pressure calibrators in Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/services/calibration/pressure/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Pressure Calibration Services | Gauges, Transmitters, Switches & Vacuum | Expert Power",
+      "Pressure Calibration Services | Expert Power",
     description:
       "Accurate pressure calibration for gauges, transmitters, switches, differential pressure, vacuum gauges, barometers, PRVs, and pressure calibrators in Saudi Arabia.",
     url: "https://expertpower.com.sa/services/calibration/pressure/",

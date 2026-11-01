@@ -3,16 +3,17 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Building Management System (BMS) Solutions | Smart Building Automation | Expert Power",
+      "Building Management System (BMS) Solutions | Expert Power",
   },
   description:
-    "Expert Power delivers Building Management System (BMS) solutions in partnership with Wizard Engineering for commercial, industrial, healthcare, and infrastructure projects across Saudi Arabia.",
+    "Building Management System (BMS) solutions with Wizard Engineering for commercial, industrial and healthcare projects across Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/services/bms/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Building Management System (BMS) Solutions | Smart Building Automation | Expert Power",
+      "Building Management System (BMS) Solutions | Expert Power",
     description:
       "BMS solutions in partnership with Wizard Engineering for commercial, industrial, healthcare, and infrastructure projects across Saudi Arabia.",
     url: "https://expertpower.com.sa/services/bms/",

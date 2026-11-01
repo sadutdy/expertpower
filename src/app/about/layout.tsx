@@ -3,15 +3,16 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "About Expert Power | ISO 17025 Calibration Laboratory in Saudi Arabia",
+      "About Expert Power | ISO 17025 Lab in Saudi Arabia",
   },
   description:
-    "Learn about Expert Power, Saudi Arabia's ISO 17025 accredited calibration laboratory since 2014. Discover our mission, vision, commitment to impartiality, QAI/ILAC accreditation, and journey to becoming a trusted calibration partner.",
+    "Expert Power has been Saudi Arabia's ISO 17025 accredited calibration laboratory since 2014. Our mission, impartiality commitment and QAI/ILAC accreditation.",
   alternates: {
     canonical: "https://expertpower.com.sa/about/",
   },
   openGraph: {
-    title: "About Expert Power | ISO 17025 Calibration Laboratory in Saudi Arabia",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    title: "About Expert Power | ISO 17025 Lab in Saudi Arabia",
     description:
       "Discover Expert Power's mission, vision, values, QAI/ILAC accreditation, and commitment to impartiality. Saudi Arabia's trusted calibration laboratory since 2014.",
     url: "https://expertpower.com.sa/about/",
@@ -32,7 +33,7 @@ const structuredData = {
       "@type": "AboutPage",
       "@id": "https://expertpower.com.sa/about/",
       url: "https://expertpower.com.sa/about/",
-      name: "About Expert Power | ISO 17025 Calibration Laboratory in Saudi Arabia",
+      name: "About Expert Power | ISO 17025 Lab in Saudi Arabia",
       description:
         "Learn about Expert Power, Saudi Arabia's ISO 17025 accredited calibration laboratory since 2014. Discover our mission, vision, QAI/ILAC accreditation, and commitment to impartiality.",
       isPartOf: {
@@ -67,7 +68,7 @@ const structuredData = {
       name: "Expert Power",
       alternateName: "Expert Power Trading Est.",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       description:
         "Expert Power is Saudi Arabia's ISO 17025 accredited calibration laboratory, providing precision calibration, testing, inspection, rental, maintenance, and repair services.",
       foundingDate: "2014",

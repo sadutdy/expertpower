@@ -219,7 +219,7 @@ export default async function InsightArticlePage({
           name: "Expert Power",
           logo: {
             "@type": "ImageObject",
-            url: "https://expertpower.com.sa/assets/logo.png",
+            url: "https://expertpower.com.sa/assets/Logo.png",
           },
         },
         isPartOf: {

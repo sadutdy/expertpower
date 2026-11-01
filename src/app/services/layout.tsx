@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Our Services | Calibration, Testing, Inspection & Repair | Expert Power",
+    absolute: "Calibration, Testing & Inspection Services | Expert Power",
   },
   description:
-    "Explore Expert Power's ISO 17025 calibration, testing & analysis, inspection & verification, equipment rental, maintenance, van services, BMS solutions, and onsite services across Saudi Arabia.",
+    "ISO 17025 calibration, testing, inspection, equipment rental, maintenance, van services and BMS solutions across Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/services/",
   },
   openGraph: {
-    title: "Our Services | Calibration, Testing, Inspection & Repair | Expert Power",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    title: "Calibration, Testing & Inspection Services | Expert Power",
     description:
       "Comprehensive calibration, testing, inspection, rental, maintenance, repair, van, and BMS services for industrial sectors in Saudi Arabia.",
     url: "https://expertpower.com.sa/services/",
@@ -31,7 +32,7 @@ const structuredData = {
       "@type": "WebPage",
       "@id": "https://expertpower.com.sa/services/",
       url: "https://expertpower.com.sa/services/",
-      name: "Our Services | Calibration, Testing, Inspection & Repair | Expert Power",
+      name: "Calibration, Testing & Inspection Services | Expert Power",
       description:
         "Explore Expert Power's ISO 17025 calibration, testing & analysis, inspection & verification, equipment rental, maintenance, van services, BMS solutions, and onsite services.",
       isPartOf: {
@@ -65,7 +66,7 @@ const structuredData = {
       "@id": "https://expertpower.com.sa/#organization",
       name: "Expert Power",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       email: "info@expertpower.com.sa",
       telephone: "+966114210481",
       sameAs: [

@@ -123,7 +123,7 @@ const livePages: SeoPage[] = [
     keyword: "SASO Accredited Lab in Saudi",
     title: "SASO Accredited Lab in Saudi Arabia | Testing & Calibration",
     description:
-      "SASO licensed and accredited lab in Saudi Arabia (PLL 0073). ISO 17025 calibration, testing and inspection for compliance and product conformity in Riyadh & Dammam. Contact Expert Power.",
+      "SASO licensed lab in Saudi Arabia (PLL 0073). ISO 17025 calibration, testing and inspection for compliance in Riyadh & Dammam.",
     h1: "SASO Accredited Lab in Saudi Arabia",
     intro:
       "Expert Power is a SASO licensed private laboratory in Saudi Arabia (PLL 0073), backed by ISO/IEC 17025:2017 and SAAC accreditation. We provide calibration, testing and inspection services that support product conformity, regulatory compliance and quality audits.",
@@ -202,7 +202,7 @@ const livePages: SeoPage[] = [
     keyword: "Electrical Instrument Repair and Service in Saudi",
     title: "Electrical Instrument Repair & Service in Saudi Arabia",
     description:
-      "Electrical instrument repair and service in Saudi Arabia. Multimeters, calibrators, insulation testers, relay test sets and more repaired, calibrated and certified. Riyadh & Dammam.",
+      "Electrical instrument repair and service in Saudi Arabia. Multimeters, calibrators and relay test sets repaired, calibrated and certified.",
     h1: "Electrical Instrument Repair and Service in Saudi Arabia",
     intro:
       "Expert Power repairs, services and recalibrates electrical test and measuring instruments in Saudi Arabia. Every repaired instrument returns to you checked against traceable standards and with a calibration certificate, so it is ready to use.",
@@ -285,7 +285,7 @@ const livePages: SeoPage[] = [
     keyword: "Cable Fault Detect in Van Service in Saudi",
     title: "Cable Fault Detection Van Service in Saudi Arabia",
     description:
-      "Cable fault detection van service in Saudi Arabia. Fully equipped mobile test vans to locate underground and HV/LV cable faults on site. Riyadh, Dammam, Jubail. Request service.",
+      "Cable fault detection van service in Saudi Arabia. Mobile test vans locate underground and HV/LV cable faults on site. Request service.",
     h1: "Cable Fault Detection Van Service in Saudi Arabia",
     intro:
       "Expert Power supplies and equips cable fault detection vans in Saudi Arabia. Our mobile test vehicles carry integrated power, HV/LV testing systems and locating equipment so faults on underground and overhead cables are found on site and repaired faster.",

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Onsite Calibration Services | Field Calibration Across Saudi Arabia | Expert Power",
+      "Onsite Calibration in Saudi Arabia | Expert Power",
   },
   description:
     "Onsite calibration services for industrial plants, commercial buildings, power & energy facilities, and transportation & logistics centers across Saudi Arabia.",
@@ -11,8 +11,9 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/services/onsite-calibration/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Onsite Calibration Services | Field Calibration Across Saudi Arabia | Expert Power",
+      "Onsite Calibration in Saudi Arabia | Expert Power",
     description:
       "Onsite calibration services for industrial plants, commercial buildings, power & energy, and transportation & logistics centers across Saudi Arabia.",
     url: "https://expertpower.com.sa/services/onsite-calibration/",

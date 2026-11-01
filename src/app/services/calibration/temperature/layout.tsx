@@ -3,16 +3,17 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Temperature Calibration Services | RTDs, Thermocouples, IR & Thermal Imagers | Expert Power",
+      "Temperature Calibration Services | Expert Power",
   },
   description:
-    "Precision temperature calibration for RTDs, thermocouples, digital thermometers, infrared thermometers, transmitters, controllers, dry blocks, and calibration baths in Saudi Arabia.",
+    "Precision temperature calibration for RTDs, thermocouples, thermometers, dry blocks and calibration baths in Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/services/calibration/temperature/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Temperature Calibration Services | RTDs, Thermocouples, IR & Thermal Imagers | Expert Power",
+      "Temperature Calibration Services | Expert Power",
     description:
       "Precision temperature calibration for RTDs, thermocouples, IR thermometers, thermal imagers, transmitters, controllers, dry blocks, and calibration baths in Saudi Arabia.",
     url: "https://expertpower.com.sa/services/calibration/temperature/",

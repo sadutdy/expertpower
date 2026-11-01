@@ -71,6 +71,7 @@ export function buildSeoMetadata(page: SeoPage, locale: SeoLocale = "en"): Metad
       },
     },
     openGraph: {
+      images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
       title: c.title,
       description: c.description,
       url,

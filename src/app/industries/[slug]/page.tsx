@@ -4,12 +4,12 @@ import { ArrowLeft, CheckCircle2, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
 
 const industries: Record<string, { name: string; icon: string; image: string; description: string; longDescription: string; services: string[] }> = {
-  "oil-gas": { name: "Oil & Gas", icon: "⛽", image: "/images/industries/oil_gas.jpg", description: "Precision instrumentation for upstream and downstream operations.", longDescription: "The oil and gas industry demands the highest levels of measurement accuracy and equipment reliability. Expert Power provides comprehensive calibration and testing services to upstream, midstream, and downstream operators throughout Saudi Arabia, ensuring compliance with international standards.", services: ["Pressure transmitter calibration","Flow meter calibration","Temperature sensor calibration","Analytical instrument calibration","Safety valve testing","Onsite mobile calibration"] },
-  "manufacturing": { name: "Manufacturing", icon: "🏭", image: "/images/industries/manufacturing.jpg", description: "Quality control and process optimization solutions.", longDescription: "Manufacturing facilities rely on precise measurement and testing to maintain product quality and production efficiency. Expert Power supports Saudi manufacturing operations with comprehensive calibration, testing, and inspection services aligned with ISO 9001 quality management requirements.", services: ["Dimensional measurement calibration","Torque and force calibration","Electrical instrument calibration","CMM verification","Preventive maintenance programs"] },
-  "energy": { name: "Energy & Power", icon: "⚡", image: "/images/industries/education.jpg", description: "Electrical testing and power system calibration.", longDescription: "Power generation, transmission, and distribution require precise electrical measurements and rigorous testing. Expert Power serves the Saudi energy sector with specialized electrical calibration, high-voltage testing, and energy meter verification services.", services: ["Energy meter calibration","Power quality analysis","High-voltage testing","Protection relay testing","Electrical safety testing"] },
-  "education": { name: "Education & Labs", icon: "🔬", image: "/images/industries/energy.jpg", description: "Laboratory equipment calibration for research institutions.", longDescription: "Universities, research institutes, and educational laboratories require calibrated instruments for credible research results. Expert Power supports academic institutions with affordable, ISO 17025 traceable calibration services.", services: ["Analytical balance calibration","Temperature calibration","Pressure calibration","Electrical measurement calibration","Dimensional calibration"] },
-  "construction": { name: "Construction", icon: "🏗️", image: "/images/industries/construction.jpg", description: "Testing and calibration for construction equipment.", longDescription: "Construction projects demand accurate measurement for structural integrity, safety compliance, and quality control. Expert Power provides calibration and testing services for construction and civil engineering equipment.", services: ["Torque wrench calibration","Load cell calibration","Survey equipment calibration","Environmental monitoring calibration","Inspection services"] },
-  "logistics": { name: "Logistics & Transportation", icon: "🚛", image: "/images/industries/logistics.png", description: "Fleet maintenance and logistics equipment services.", longDescription: "Logistics and transportation operations depend on reliable equipment and accurate measurement systems. Expert Power supports Saudi logistics companies with calibration of weighing systems, fuel meters, and vehicle diagnostic equipment.", services: ["Weighbridge calibration","Temperature monitoring calibration"] },
+  "oil-gas": { name: "Oil & Gas", icon: "⛽", image: "/images/industries/oil_gas.jpg", description: "Precision instrumentation for upstream and downstream operations.", longDescription: "Calibration and testing services for upstream, midstream and downstream oil and gas operators across Saudi Arabia, to international standards.", services: ["Pressure transmitter calibration","Flow meter calibration","Temperature sensor calibration","Analytical instrument calibration","Safety valve testing","Onsite mobile calibration"] },
+  "manufacturing": { name: "Manufacturing", icon: "🏭", image: "/images/industries/manufacturing.jpg", description: "Quality control and process optimization solutions.", longDescription: "Calibration, testing and inspection for Saudi manufacturers, aligned with ISO 9001 quality management requirements.", services: ["Dimensional measurement calibration","Torque and force calibration","Electrical instrument calibration","CMM verification","Preventive maintenance programs"] },
+  "energy": { name: "Energy & Power", icon: "⚡", image: "/images/industries/education.jpg", description: "Electrical testing and power system calibration.", longDescription: "Electrical calibration, high-voltage testing and energy meter verification for power generation, transmission and distribution in Saudi Arabia.", services: ["Energy meter calibration","Power quality analysis","High-voltage testing","Protection relay testing","Electrical safety testing"] },
+  "education": { name: "Education & Labs", icon: "🔬", image: "/images/industries/energy.jpg", description: "Laboratory equipment calibration for research institutions.", longDescription: "ISO 17025 traceable calibration for universities, research institutes and educational laboratories in Saudi Arabia.", services: ["Analytical balance calibration","Temperature calibration","Pressure calibration","Electrical measurement calibration","Dimensional calibration"] },
+  "construction": { name: "Construction", icon: "🏗️", image: "/images/industries/construction.jpg", description: "Testing and calibration for construction equipment.", longDescription: "Calibration and testing for construction and civil engineering equipment: accurate measurement for safety, compliance and quality control.", services: ["Torque wrench calibration","Load cell calibration","Survey equipment calibration","Environmental monitoring calibration","Inspection services"] },
+  "logistics": { name: "Logistics & Transportation", icon: "🚛", image: "/images/industries/logistics.png", description: "Fleet maintenance and logistics equipment services.", longDescription: "Calibration of weighing systems, fuel meters and vehicle diagnostic equipment for logistics and transportation companies in Saudi Arabia.", services: ["Weighbridge calibration","Temperature monitoring calibration"] },
 };
 
 export async function generateStaticParams() {
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const industry = industries[slug];
   if (!industry) return { title: "Industry Not Found" };
-  const title = `${industry.name} Calibration & Testing Services | Expert Power Saudi Arabia`;
+  const title = `${industry.name} Calibration & Testing | Expert Power`;
   return {
     title,
     description: industry.longDescription,
@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       canonical: `https://expertpower.com.sa/industries/${slug}/`,
     },
     openGraph: {
+      images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
       title,
       description: industry.longDescription,
       url: `https://expertpower.com.sa/industries/${slug}/`,
@@ -54,7 +55,7 @@ export default async function IndustryDetailPage({ params }: { params: Promise<{
         "@type": "WebPage",
         "@id": `https://expertpower.com.sa/industries/${slug}/`,
         url: `https://expertpower.com.sa/industries/${slug}/`,
-        name: `${industry.name} Calibration & Testing Services | Expert Power Saudi Arabia`,
+        name: `${industry.name} Calibration & Testing | Expert Power`,
         description: industry.longDescription,
         isPartOf: {
           "@id": "https://expertpower.com.sa/",

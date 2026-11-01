@@ -4,15 +4,16 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Products & Equipment Rental | Calibration Equipment | Expert Power",
+    absolute: "Equipment Rental & Products | Expert Power",
   },
   description:
-    "Rent or buy calibrated test and measurement equipment from Expert Power. Electrical, pressure, temperature, and dimensional instruments for industrial and laboratory use in Saudi Arabia.",
+    "Rent or buy calibrated test and measurement equipment: electrical, pressure, temperature and dimensional instruments for industry in Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/products/",
   },
   openGraph: {
-    title: "Products & Equipment Rental | Calibration Equipment | Expert Power",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    title: "Equipment Rental & Products | Expert Power",
     description:
       "Explore calibration equipment rental and sales from Expert Power. Electrical, pressure, temperature, and dimensional instruments available in Saudi Arabia.",
     url: "https://expertpower.com.sa/products/",
@@ -69,7 +70,7 @@ export default function ProductsPage() {
         "@type": "WebPage",
         "@id": "https://expertpower.com.sa/products/",
         url: "https://expertpower.com.sa/products/",
-        name: "Products & Equipment Rental | Calibration Equipment | Expert Power",
+        name: "Equipment Rental & Products | Expert Power",
         description:
           "Rent or buy calibrated test and measurement equipment from Expert Power in Saudi Arabia.",
         isPartOf: {

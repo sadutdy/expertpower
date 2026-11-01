@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/terms/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title: "Terms of Service | Expert Power",
     description:
       "Read Expert Power's Terms of Service for using our website and calibration services.",

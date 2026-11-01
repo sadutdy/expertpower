@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/careers/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title: "Careers at Expert Power | Calibration Jobs in Saudi Arabia",
     description:
       "Explore career opportunities at Expert Power. Join our team of calibration professionals and engineers in Riyadh and Dammam.",
@@ -65,7 +66,7 @@ const structuredData = {
       "@id": "https://expertpower.com.sa/#organization",
       name: "Expert Power",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       email: "info@expertpower.com.sa",
       telephone: "+966114210481",
       sameAs: [

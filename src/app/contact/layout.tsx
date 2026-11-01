@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Contact Expert Power | ISO 17025 Calibration Services in Saudi Arabia",
+    absolute: "Contact Expert Power | Calibration Lab in Saudi Arabia",
   },
   description:
-    "Contact Expert Power for ISO 17025 accredited calibration, testing, inspection, and engineering services in Saudi Arabia. Request a quote or send an enquiry. Offices in Riyadh and Dammam.",
+    "Contact Expert Power for ISO 17025 calibration, testing and inspection in Saudi Arabia. Request a quote or send an enquiry. Offices in Riyadh and Dammam.",
   alternates: {
     canonical: "https://expertpower.com.sa/contact/",
   },
   openGraph: {
-    title: "Contact Expert Power | ISO 17025 Calibration Services in Saudi Arabia",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    title: "Contact Expert Power | Calibration Lab in Saudi Arabia",
     description:
       "Get in touch with Expert Power for precision calibration, testing, and engineering services. Request a quote or visit our offices in Riyadh and Dammam.",
     url: "https://expertpower.com.sa/contact/",
@@ -27,7 +28,7 @@ const structuredData = {
       "@type": "WebPage",
       "@id": "https://expertpower.com.sa/contact/",
       url: "https://expertpower.com.sa/contact/",
-      name: "Contact Expert Power | ISO 17025 Calibration Services in Saudi Arabia",
+      name: "Contact Expert Power | Calibration Lab in Saudi Arabia",
       description:
         "Contact Expert Power for ISO 17025 accredited calibration, testing, inspection, and engineering services in Saudi Arabia.",
       isPartOf: {
@@ -62,7 +63,7 @@ const structuredData = {
       name: "Expert Power",
       alternateName: "Expert Power Trading Est.",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       email: "info@expertpower.com.sa",
       telephone: "+966114210481",
       contactPoint: [

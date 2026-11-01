@@ -191,7 +191,7 @@ export const serviceSpecs: PageSpec[] = [
     serviceType: "Temperature calibration for storage and controlled environments",
     related: [R.temp, R.cal, R.onsite, R.contact],
     en: {
-      title: "Temperature Calibration Services in Saudi Arabia | Expert Power",
+      title: "Temperature Calibration in Saudi Arabia | Expert Power",
       description:
         "Temperature calibration in Saudi Arabia for warehouses, cold rooms, chambers and fridges. Logger placement, test duration and reporting. Riyadh and Dammam.",
       h1: "Temperature Calibration in Saudi Arabia",

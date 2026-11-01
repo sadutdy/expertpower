@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Rental Instruments in Saudi Arabia | Test Equipment Rental | Expert Power",
+      "Rental Instruments in Saudi Arabia | Expert Power",
   },
   description:
-    "Rental instruments in Saudi Arabia: rent electrical, high-voltage, relay, transformer, cable fault, battery, and temperature testing equipment from Expert Power.",
+    "Rental instruments in Saudi Arabia: electrical, high-voltage, relay, transformer, cable fault and temperature test equipment.",
   keywords: [
     "rental instruments in Saudi Arabia",
     "test equipment rental Saudi Arabia",
@@ -17,8 +17,9 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/services/rental/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Rental Instruments in Saudi Arabia | Test Equipment Rental | Expert Power",
+      "Rental Instruments in Saudi Arabia | Expert Power",
     description:
       "Rent calibrated test and measurement equipment for electrical, high-voltage, relay, transformer, cable fault, and temperature applications in Saudi Arabia.",
     url: "https://expertpower.com.sa/services/rental/",

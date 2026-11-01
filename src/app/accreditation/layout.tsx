@@ -6,11 +6,12 @@ export const metadata: Metadata = {
       "Accreditation & Certifications | Expert Power Saudi Arabia",
   },
   description:
-    "Expert Power holds ISO/IEC 17025:2017, ISO 9001:2015, ISO 45001, and ISO 14001 certifications, plus QAI/ILAC MRA and SASO recognition. View our calibration certificates and accreditations.",
+    "ISO/IEC 17025, ISO 9001, ISO 45001 and ISO 14001 certified, with QAI/ILAC MRA recognition and a SASO laboratory license. View our certificates.",
   alternates: {
     canonical: "https://expertpower.com.sa/accreditation/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title: "Accreditation & Certifications | Expert Power Saudi Arabia",
     description:
       "View Expert Power's ISO/IEC 17025:2017, ISO 9001, ISO 45001, ISO 14001, QAI/ILAC MRA recognition, and SASO recognition for calibration services in Saudi Arabia.",
@@ -66,7 +67,7 @@ const structuredData = {
       "@id": "https://expertpower.com.sa/#organization",
       name: "Expert Power",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       email: "info@expertpower.com.sa",
       telephone: "+966114210481",
       hasCredential: [

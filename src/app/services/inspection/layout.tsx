@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Inspection & Verification Services | Lifting & Electrical Inspection | Expert Power",
+      "Inspection & Verification Services | Expert Power",
   },
   description:
     "Independent inspection and verification services for general equipment, lifting equipment, lifting gear, accessories, and electrical systems in Saudi Arabia.",
@@ -11,8 +11,9 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/services/inspection/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title:
-      "Inspection & Verification Services | Lifting & Electrical Inspection | Expert Power",
+      "Inspection & Verification Services | Expert Power",
     description:
       "Independent inspection and verification services for general equipment, lifting equipment, lifting gear, and electrical systems in Saudi Arabia.",
     url: "https://expertpower.com.sa/services/inspection/",

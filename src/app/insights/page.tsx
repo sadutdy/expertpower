@@ -7,11 +7,12 @@ export const metadata: Metadata = {
     absolute: "Insights & News | Calibration Articles | Expert Power",
   },
   description:
-    "Read the latest calibration insights, ISO 17025 guides, industry news, and technical articles from Expert Power — Saudi Arabia's ISO 17025 accredited laboratory.",
+    "Calibration insights, ISO 17025 guides and technical articles from Expert Power, Saudi Arabia's ISO 17025 accredited laboratory.",
   alternates: {
     canonical: "https://expertpower.com.sa/insights/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title: "Insights & News | Calibration Articles | Expert Power",
     description:
       "Explore calibration guides, ISO 17025 articles, and industry insights from Expert Power.",

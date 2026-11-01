@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Industries We Serve | Calibration Services by Sector | Expert Power",
+    absolute: "Industries We Serve | Calibration by Sector | Expert Power",
   },
   description:
-    "Expert Power provides ISO 17025 calibration and engineering services to oil & gas, manufacturing, energy, education, construction, and logistics industries in Saudi Arabia.",
+    "ISO 17025 calibration and engineering services for oil & gas, manufacturing, energy, education, construction and logistics in Saudi Arabia.",
   alternates: {
     canonical: "https://expertpower.com.sa/industries/",
   },
   openGraph: {
-    title: "Industries We Serve | Calibration Services by Sector | Expert Power",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    title: "Industries We Serve | Calibration by Sector | Expert Power",
     description:
       "Discover calibration solutions tailored for oil & gas, manufacturing, energy, education, construction, and logistics sectors in Saudi Arabia.",
     url: "https://expertpower.com.sa/industries/",
@@ -31,7 +32,7 @@ const structuredData = {
       "@type": "WebPage",
       "@id": "https://expertpower.com.sa/industries/",
       url: "https://expertpower.com.sa/industries/",
-      name: "Industries We Serve | Calibration Services by Sector | Expert Power",
+      name: "Industries We Serve | Calibration by Sector | Expert Power",
       description:
         "Expert Power provides ISO 17025 calibration and engineering services to oil & gas, manufacturing, energy, education, construction, and logistics industries.",
       isPartOf: {
@@ -65,7 +66,7 @@ const structuredData = {
       "@id": "https://expertpower.com.sa/#organization",
       name: "Expert Power",
       url: "https://expertpower.com.sa",
-      logo: "https://expertpower.com.sa/assets/logo.png",
+      logo: "https://expertpower.com.sa/assets/Logo.png",
       email: "info@expertpower.com.sa",
       telephone: "+966114210481",
       sameAs: [

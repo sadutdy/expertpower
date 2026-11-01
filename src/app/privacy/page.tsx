@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://expertpower.com.sa/privacy/",
   },
   openGraph: {
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
     title: "Privacy Policy | Expert Power",
     description:
       "Read Expert Power's Privacy Policy to understand how we handle your personal data.",

@@ -11,7 +11,7 @@ import { Accreditation } from "@/sections/Accreditation";
 export const metadata: Metadata = {
   title: "ISO 17025 Calibration Laboratory in Saudi Arabia | Expert Power",
   description:
-    "Expert Power is Saudi Arabia's leading ISO 17025 accredited calibration laboratory. We provide precision calibration, testing, inspection, rental, maintenance, and repair services for oil & gas, manufacturing, energy, education, construction, and logistics sectors. Request a quote today.",
+    "ISO 17025 accredited calibration lab in Saudi Arabia. Calibration, testing, inspection, rental and repair for oil & gas, energy and industry. Get a quote.",
   alternates: {
     canonical: "https://expertpower.com.sa/",
   },
@@ -32,7 +32,7 @@ const structuredData = {
   name: "Expert Power",
   alternateName: "Expert Power Trading Est.",
   url: "https://expertpower.com.sa",
-  logo: "https://expertpower.com.sa/assets/logo.png",
+  logo: "https://expertpower.com.sa/assets/Logo.png",
   description:
     "Expert Power is Saudi Arabia's leading ISO 17025 accredited calibration laboratory, providing precision calibration, testing, inspection, rental, maintenance, and repair services.",
   priceRange: "$$",
