@@ -91,7 +91,6 @@ export const serviceSpecs: PageSpec[] = [
     serviceType: "Mass and balance calibration",
     related: [
       R.cal,
-      ["Weighbridge and truck scale calibration", "/services/calibration/mass/weighbridge-truck-scale-calibration/", "معايرة موازين الشاحنات"],
       R.onsite,
       R.contact,
     ],
@@ -453,61 +452,6 @@ export const serviceSpecs: PageSpec[] = [
         "أنت تقرر",
       ],
       motionTitle: "عقد المعايرة السنوي",
-    },
-  },
-  {
-    slug: "services/inspection/lifting-equipment",
-    kind: "service",
-    keyword: "lifting equipment inspection Saudi Arabia",
-    moreKeywords: ["lifting gear inspection", "sling and shackle inspection", "forklift inspection Saudi Arabia"],
-    img: IMG.insp,
-    serviceType: "Lifting equipment inspection",
-    related: [R.insp, R.test, R.contact],
-    en: {
-      title: "Lifting Equipment Inspection in Saudi Arabia | Expert Power",
-      description:
-        "Inspection and load testing of hoists, slings, shackles and forklifts in Saudi Arabia. Contact Expert Power in Riyadh or Dammam for a quote.",
-      h1: "Lifting Equipment Inspection in Saudi Arabia",
-      intro: "Expert Power inspects and load tests lifting equipment in Saudi Arabia.",
-      offerHeading: "Equipment we inspect",
-      offer: ["Hoists", "Slings", "Shackles", "Forklifts"],
-      stepsHeading: "How the inspection works",
-      steps: [
-        "Identify the equipment",
-        "Inspect its condition",
-        "Load test where required",
-        "Record the inspection results",
-      ],
-      motionTitle: "Lifting equipment inspection",
-      faqs: [
-        [
-          "How often should lifting equipment be inspected?",
-          "The inspection frequency depends on the type of equipment, how it is used and the rules that apply to your site. Contact us to discuss your equipment.",
-        ],
-      ],
-    },
-    ar: {
-      title: "فحص معدات الرفع في السعودية | إكسبرت باور",
-      description:
-        "فحص واختبار حمل الرافعات الصغيرة والأحزمة والشواكل والرافعات الشوكية في السعودية. تواصل مع إكسبرت باور في الرياض أو الدمام للحصول على عرض سعر.",
-      h1: "فحص معدات الرفع في المملكة العربية السعودية",
-      intro: "تفحص إكسبرت باور معدات الرفع وتختبر حمولتها في السعودية.",
-      offerHeading: "المعدات التي نفحصها",
-      offer: ["الرافعات والونشات الصغيرة", "أحزمة الرفع", "الشواكل", "الرافعات الشوكية"],
-      stepsHeading: "كيف يتم الفحص",
-      steps: [
-        "تحديد المعدة",
-        "فحص حالتها",
-        "اختبار الحمل عند الحاجة",
-        "تسجيل نتائج الفحص",
-      ],
-      motionTitle: "فحص معدات الرفع",
-      faqs: [
-        [
-          "كم مرة يجب فحص معدات الرفع؟",
-          "تعتمد وتيرة الفحص على نوع المعدة وطريقة استخدامها والقواعد المطبقة في موقعك. تواصل معنا لمناقشة معداتك.",
-        ],
-      ],
     },
   },
   {

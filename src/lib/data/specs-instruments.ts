@@ -347,38 +347,6 @@ export const instrumentSpecs: PageSpec[] = [
       ],
     },
   }),
-  instrument({
-    slug: "services/calibration/mass/weighbridge-truck-scale-calibration",
-    keyword: "weighbridge truck scale calibration",
-    more: ["truck scale calibration Saudi Arabia"],
-    related: [
-      R.cal,
-      ["Mass and balance calibration", "/services/calibration/mass/", "معايرة الأوزان والموازين"],
-      R.onsite,
-      R.contact,
-    ],
-    en: {
-      name: "Weighbridge and Truck Scale",
-      lower: "weighbridges and truck scales",
-      offer: ["Weighbridges", "Truck scales", "Platform scales"],
-      steps: [
-        "Visit the site and inspect the scale",
-        "Apply reference loads",
-        "Adjust where needed",
-        "Issue the calibration certificate",
-      ],
-    },
-    ar: {
-      name: "موازين الشاحنات والجسور الوزنية",
-      offer: ["الجسور الوزنية", "موازين الشاحنات", "موازين المنصات"],
-      steps: [
-        "زيارة الموقع وفحص الميزان",
-        "تطبيق أحمال مرجعية",
-        "الضبط عند الحاجة",
-        "إصدار شهادة المعايرة",
-      ],
-    },
-  }),
 ];
 
 const cityLines = {

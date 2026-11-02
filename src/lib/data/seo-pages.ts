@@ -215,19 +215,20 @@ const livePages: SeoPage[] = [
     },
     sections: [
       {
-        heading: "Instruments we repair and service",
+        heading: "Instruments we provide repair and maintenance",
         body: [
-          "Our engineers repair and service the instruments used by electrical contractors, utilities, maintenance teams and laboratories.",
+          "We mainly repair and maintain electrical high voltage instruments and relay test systems, and we also service the smaller instruments used by electrical contractors, utilities, maintenance teams and laboratories.",
         ],
         bullets: [
+          "High voltage test instruments",
+          "Protection relay test sets and primary/secondary injection kits",
           "Digital multimeters, clamp meters and power analysers",
           "Process and electrical calibrators",
           "Insulation resistance testers and earth testers",
-          "Protection relay test sets and primary/secondary injection kits",
         ],
       },
       {
-        heading: "Repair, calibration and certification in one visit",
+        heading: "Repair, calibration and certification in one place",
         body: [
           "Repair alone does not prove an instrument is accurate. We test the fault, repair or replace parts, then calibrate against traceable references and issue a certificate before the instrument is released.",
         ],
@@ -235,13 +236,12 @@ const livePages: SeoPage[] = [
           "Fault diagnosis and written quotation",
           "Post-repair calibration with certificate",
           "Annual maintenance contracts and preventive service",
-          "Emergency repair and replacement rental instruments",
         ],
       },
       {
         heading: "Service across Saudi Arabia",
         body: [
-          "Drop off or ship instruments to our Riyadh workshop or Dammam branch, or request an engineer visit. Rental equipment can cover your project while your instruments are being repaired.",
+          "Drop off or ship instruments to our Riyadh workshop or Dammam branch, or request an engineer visit.",
         ],
       },
     ],
@@ -263,7 +263,6 @@ const livePages: SeoPage[] = [
     related: [
       { label: "Repair & maintenance", href: "/services/maintenance/" },
       { label: "Electrical calibration", href: "/services/calibration/electrical/" },
-      { label: "Equipment rental", href: "/services/rental/" },
       { label: "Contact us", href: "/contact/" },
     ],
     heroImage: "/assets/maintenance.jpg",
@@ -273,10 +272,10 @@ const livePages: SeoPage[] = [
     keyword: "Cable Fault Detect in Van Service in Saudi",
     title: "Cable Fault Detection Van Service in Saudi Arabia",
     description:
-      "Cable fault detection van service in Saudi Arabia. Mobile test vans locate underground and HV/LV cable faults on site. Request service.",
+      "Cable fault detection van design, fabrication, installation and calibration in Saudi Arabia. Request service.",
     h1: "Cable Fault Detection Van Service in Saudi Arabia",
     intro:
-      "Expert Power supplies and equips cable fault detection vans in Saudi Arabia. Our mobile test vehicles carry integrated power, HV/LV testing systems and locating equipment so faults on underground and overhead cables are found on site and repaired faster.",
+      "Expert Power mainly provides design, fabrication, installation and calibration services for cable fault detection vans in Saudi Arabia. We do not supply the vans or the equipment. We build out and commission your van and calibrate its test and locating systems so cable faults are found accurately.",
     keywords: [
       "cable fault detection van service in Saudi Arabia",
       "cable fault locator van Saudi Arabia",
@@ -286,14 +285,14 @@ const livePages: SeoPage[] = [
       "خدمة كشف أعطال الكابلات بالسيارة المجهزة في السعودية",
     ],
     arabic: {
-      heading: "خدمة كشف أعطال الكابلات بسيارة مجهزة في السعودية",
-      body: "نوفر في إكسبرت باور سيارات كشف أعطال الكابلات المجهزة بأنظمة اختبار الجهد العالي والمنخفض ومولدات وأجهزة تحديد موقع العطل، لخدمة شركات الكهرباء والمصانع والمشاريع في الرياض والدمام والجبيل وجميع مناطق المملكة.",
+      heading: "خدمة سيارات كشف أعطال الكابلات في السعودية",
+      body: "نقدم في إكسبرت باور خدمات تصميم وتصنيع وتركيب ومعايرة سيارات كشف أعطال الكابلات لشركات الكهرباء والمصانع والمشاريع في الرياض والدمام والجبيل وجميع مناطق المملكة. لا نوفر السيارات ولا المعدات.",
     },
     sections: [
       {
         heading: "What a cable fault detection van includes",
         body: [
-          "Each vehicle is designed around your testing needs, with the equipment installed, wired and commissioned in a climate-controlled, anti-vibration cabin.",
+          "Each vehicle is designed around your testing needs, with the equipment installed, wired and commissioned in a climate-controlled cabin.",
         ],
         bullets: [
           "HV/LV cable testing and fault location equipment",
@@ -306,14 +305,14 @@ const livePages: SeoPage[] = [
       {
         heading: "Turnkey van design, equipment and commissioning",
         body: [
-          "We handle project consultation, vehicle selection and layout, equipment sourcing from leading manufacturers, installation and commissioning. Your team receives a van that is ready for field work.",
+          "We handle project consultation, van layout, fabrication, installation and commissioning of your equipment. Your team receives a van that is ready for field work.",
         ],
       },
     ],
     faqs: [
       {
         q: "Do you offer cable fault detection van service in Saudi Arabia?",
-        a: "Yes. Expert Power designs, equips and commissions mobile cable testing and fault detection vans for field operations in Saudi Arabia.",
+        a: "Yes. Expert Power designs, fabricates, installs and calibrates the systems of cable testing and fault detection vans for field operations in Saudi Arabia. We do not supply vans or equipment.",
       },
       {
         q: "Can the van be customised to our equipment?",
